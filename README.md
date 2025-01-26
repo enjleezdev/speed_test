@@ -1,40 +1,40 @@
-# أداة قياس سرعة الشبكة
-أداة بسيطة مكتوبة بلغة Python لقياس سرعة الإنترنت (التحميل والرفع) وزمن الاستجابة.
+# Network Speed Tester
+A simple Python-based tool to measure internet speed (download, upload) and ping.
 
-## المميزات
-- قياس سرعة التحميل
-- قياس سرعة الرفع
-- قياس زمن الاستجابة (Ping)
-- واجهة عربية سهلة الاستخدام
-- عرض النتائج بشكل جميل وملون
+## Features
+- Measure download speed
+- Measure upload speed
+- Measure ping (latency)
+- Easy-to-use interface
+- Beautiful colored output
 
-## المتطلبات
-- Python 3.6 أو أحدث
-- حزم Python المطلوبة موجودة في ملف `requirements.txt`
+## Requirements
+- Python 3.6 or higher
+- Required Python packages are listed in `requirements.txt`
 
-## التثبيت
-1. قم بنسخ المستودع:
+## Installation
+1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/network-speed-tester.git
-cd network-speed-tester
+git clone https://github.com/enjleezdev/speed_test.git
+cd speed_test
 ```
 
-2. قم بتثبيت المتطلبات:
+2. Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-## الاستخدام
-قم بتشغيل البرنامج باستخدام:
+## Usage
+Run the program using:
 ```bash
 python speed_test.py
 ```
 
-في نظام Ubuntu، يمكنك جعل الملف قابل للتنفيذ:
+On Ubuntu, you can make the file executable:
 ```bash
 chmod +x speed_test.py
 ./speed_test.py
 ```
 
-## الترخيص
+## License
 MIT License
